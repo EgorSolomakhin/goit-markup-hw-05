@@ -110,6 +110,16 @@ body {
 .link-site-nav:focus {
     color: var(--accent-color);
 }
+
+.link-studio::after {
+    content: "";
+    display: block;
+    width: 48px;
+    height: 4px;
+    background: #2196F3;
+    border-radius: 2px;
+}
+
 .link-auth-nav {
     font-family: Roboto;
     font-style: normal;
@@ -136,6 +146,7 @@ body {
 
 .site-nav-items:not(:last-child) {
     margin-right: 50px;
+    
 }
 
 .auth-nav-items:not(:last-child) {
